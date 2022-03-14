@@ -26,5 +26,4 @@ postRun:
   command:
     - node --version
 nodeVersion: 14.17.2
-parallelism: 4
 version: 1.0
