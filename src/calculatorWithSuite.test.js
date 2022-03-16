@@ -25,7 +25,7 @@ describe('Test Language code_Expanded name to check for test suite_expand', func
         expect(getAboutUsLink("cs")).toBe("/o nás");
     });
 
-    // it("Fail czech language", () => {
+    // it("Fail czech langcduage", () => {
     //     expect(getAboutUsLink("cs")).toBe("/o nas");
     // });
     
