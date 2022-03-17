@@ -31,9 +31,9 @@ describe('Test Language code_Expanded name to check for test suite_expand', func
         expect(getAboutUsLink("cs")).toBe("/o nás");
     });
     
-    it('should should detect odd number--', () => {
+    it('-should should detect odd number--', () => {
        const number = Math.floor(Math.random() * 10);
-       const result = 11 % 2;
+       const result = number % 2;
        expect(result).toBe(1);
     });
 });
