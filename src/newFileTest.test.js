@@ -1,6 +1,6 @@
 const comparisionOperation = require('./newFile');
 
-describe.skip("Parent suite", () => {
+describe("Parent suite", () => {
 describe("Part of pareent_suite | Comparision tests 1", () => {
     test('3>2 should return true', () => {
         var result = comparisionOperation.greater(3, 2)
