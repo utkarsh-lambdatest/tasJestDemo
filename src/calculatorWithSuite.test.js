@@ -4,8 +4,8 @@ describe('Test Language code_Expanded name to check for test suite_expand', func
     it("Returns about-us for english language", () => {
         expect(getAboutUsLink(process.env.ENGLISHCODE)).toBe("/about-us");
     });
-
-    it.skip("Returns about-us for spanish language_Returns about-us for spanish language", () => {
+    
+    it("Returns about-us for spanish language_Returns about-us for spanish language", () => {
         expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
     });
     
