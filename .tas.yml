@@ -23,6 +23,6 @@ preMerge:
     INTVALUE: ${{ secrets.Int_value }}
 postRun:
   command:
-    - npm run build
+    - node --version
 nodeVersion: 14.17.2
 version: 1.0
