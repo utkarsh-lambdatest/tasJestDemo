@@ -6,7 +6,7 @@ blocklist:
 #   - "./src/calculatorWithSuite.test.js##Test Language code_Expanded name to check for test suite_expand"ndndnnd
 preRun:
   command:
-    - npm ci          
+    - npm cis          
 postMerge:
   pattern: 
     - "./src/*.test.js"
