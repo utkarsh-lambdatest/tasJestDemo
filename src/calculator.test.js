@@ -11,7 +11,7 @@ test("Returns about-us for spanish language", () => {
 // v test.todo('Skip a test');
 test.skip("Skip a test", () => {
     //comment
-    expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
+    (getAboutUsLink("es-ES")).toBe("/acerca-de");
 });
 
 // test("Fail a test -1", () => {
