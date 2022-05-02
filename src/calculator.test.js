@@ -19,7 +19,7 @@ test.skip("Skip a test", () => {
 // });
 
 
-// test("Blacklist a test", () => {
+// test("Blacklist a tesst", () => {
 //     expect(getAboutUsLink("es-ES")).toBe("");
 // });
 
