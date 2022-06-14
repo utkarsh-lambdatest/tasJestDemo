@@ -50,7 +50,7 @@ describe('By arjun-rathi suitwe', function () {
     it('some test title', () => {
         jest.useFakeTimers();
         setTimeout(() => {
-        expect(component.state().fruits).toEqual(fruits);
+        expect(fruits).toEqual(fruits);
         }, 15000);
         jest.runAllTimers();
     });
