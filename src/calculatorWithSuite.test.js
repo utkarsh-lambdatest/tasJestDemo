@@ -48,7 +48,7 @@ describe('By arjun-rathi suitwe', function () {
     const fruits = ['banana', 'apple', 'orange', 'vodka', 'kiwi'];
 
     it('some test title', () => {
-        for(let i = 0; i < 40; i++) {
+        for(let i = 0; i < 4000; i++) {
                 jest.useFakeTimers();
                 setTimeout(() => {
                 expect(fruits).toEqual(fruits);
