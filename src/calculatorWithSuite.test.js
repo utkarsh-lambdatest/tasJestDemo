@@ -51,7 +51,7 @@ describe('By arjun-rathi suitwe', function () {
         jest.useFakeTimers();
         setTimeout(() => {
         expect(component.state().fruits).toEqual(fruits);
-        }, 1500);
+        }, 15000);
         jest.runAllTimers();
     });
 });
