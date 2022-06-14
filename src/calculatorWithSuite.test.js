@@ -48,11 +48,13 @@ describe('By arjun-rathi suitwe', function () {
     const fruits = ['banana', 'apple', 'orange', 'vodka', 'kiwi'];
 
     it('some test title', () => {
-        jest.useFakeTimers();
-        setTimeout(() => {
-        expect(fruits).toEqual(fruits);
-        }, 15000);
-        jest.runAllTimers();
+        for(let i = 0; i < 40; i++) {
+                jest.useFakeTimers();
+                setTimeout(() => {
+                expect(fruits).toEqual(fruits);
+                }, 15000);
+                jest.runAllTimers();
+        }
     });
 });
 
