@@ -46,9 +46,9 @@ describe('By arjun-rathi suitwe', function () {
     });
     
     it('some test title', async () => {
-        for(let i = 0; i < 4000; i++) { 
+        for(let i = 0; i < 40000; i++) { 
             const foo = true;
-            await new Promise((r) => setTimeout(r, 25000));
+            await new Promise((r) => setTimeout(r, 40000));
             expect(foo).toBeDefined();
         }
    });
