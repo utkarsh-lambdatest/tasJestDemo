@@ -45,12 +45,12 @@ describe('By arjun-rathi suitwe', function () {
         expect(getAboutUsLink(process.env.ENGLISHCODE)).toBe("/about-us");
     });
     
-    it('some test title', async () => {
-        for(let i = 0; i < 40000; i++) { 
-            const foo = true;
-            await new Promise((r) => setTimeout(r, 40000));
-            expect(foo).toBeDefined();
-        }
-   });
+//     it('some test title', async () => {
+//         for(let i = 0; i < 40000; i++) { 
+//             const foo = true;
+//             await new Promise((r) => setTimeout(r, 40000));
+//             expect(foo).toBeDefined();
+//         }
+//    });
 });
 
