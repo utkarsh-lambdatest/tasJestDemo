@@ -44,4 +44,10 @@ describe('By arjun-rathi suitwe', function () {
     it("Returns about-us for english language", () => {
         expect(getAboutUsLink(process.env.ENGLISHCODE)).toBe("/about-us");
     });
+    
+    it('some test title', async () => {
+      const foo = true;
+      await new Promise((r) => setTimeout(r, 20000));
+      expect(foo).toBeDefined();
+   });
 });
