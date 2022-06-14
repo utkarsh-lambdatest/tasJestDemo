@@ -45,16 +45,12 @@ describe('By arjun-rathi suitwe', function () {
         expect(getAboutUsLink(process.env.ENGLISHCODE)).toBe("/about-us");
     });
     
-    const fruits = ['banana', 'apple', 'orange', 'vodka', 'kiwi'];
-
-    it('some test title', () => {
-        for(let i = 0; i < 4000; i++) {
-                jest.useFakeTimers();
-                setTimeout(() => {
-                expect(fruits).toEqual(fruits);
-                }, 15000);
-                jest.runAllTimers();
+    it('some test title', async () => {
+        for(let i = 0; i < 4000; i++) { 
+            const foo = true;
+            await new Promise((r) => setTimeout(r, 25000));
+            expect(foo).toBeDefined();
         }
-    });
+   });
 });
 
