@@ -6,7 +6,7 @@ describe('Test Language code_Expanded name to check for test suite_expand', func
 //     });
     
     it("Returns about-us for spanish language_Returns about-us for spanish language", () => {
-        expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
+        expect(getAboutUsLink("es-ES")).toBe("/acerca-def");
     });
     
     // it("Fail case for english language", () => {
