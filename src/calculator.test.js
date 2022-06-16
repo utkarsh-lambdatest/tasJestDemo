@@ -44,5 +44,3 @@ test('adding should should detect odd number--', () => {
     const result = number % 2;
     expect(result).toBe(1);
 });
-
-
