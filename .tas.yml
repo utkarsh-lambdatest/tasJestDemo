@@ -26,5 +26,5 @@ postRun:
     - node --version
 nodeVersion: 14.17.2
 version: 1.0.0
-parallelism: 4
-splitMode: file
+# parallelism: 4
+# splitMode: file
