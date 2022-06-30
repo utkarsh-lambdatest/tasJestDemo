@@ -25,9 +25,4 @@ postRun:
   command:
     - node --version
 nodeVersion: 14.17.2
-<<<<<<< newBranch
-version: 1.0.3
-=======
-version: 1.0.1
-
->>>>>>> master
+version: 1.0.0
