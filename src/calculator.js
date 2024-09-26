@@ -3,6 +3,7 @@ const spanishCode = "es-ES";
 const estonianCode = "et";
 const czechcode = "cs";
 
+// some comment
 function getAboutUsLink(language) {
   switch (language.toLowerCase()) {
     case englishCode.toLowerCase():
@@ -11,7 +12,7 @@ function getAboutUsLink(language) {
       return '/acerca-de';
     case estonianCode.toLowerCase():
       return '/meist';
-      case czechcode.toLowerCase():
+    case czechcode.toLowerCase():
       return '/o nás';
   }
   return '';
